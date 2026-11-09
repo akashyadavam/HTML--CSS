@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: aqua;
+            border: solid black 3px;
+            display: flex;
+            flex-direction: row;
+            margin: 2px;
+            padding: 2px;
+            width: 600px;
+            height: 420px;
+        }
+
+        .box1 {
+            background-color: yellow;
+            border: solid red 2px;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            width: 300px;
+        }
+
+        .box2 {
+            background-color: chartreuse;
+            border: solid blue 2px;
+            margin: 2px;
+            padding: 2px;
+            width: 300px;
+            height: 400px;
+        }
+
+        p {
+            border: solid green 2px;
+        }
+
+        img {
+            width : 300px;height: 400px;
+        }
+/* 
+        @media (max-width: 640px) {
+            .container {
+                flex-direction: column;
+            }
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aut.</p>
+            
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, harum.</p>
+        </div>
+        
+        <div class="box2">
+            <img src="../PART3/imag1.jpg" alt="Image1">
+        </div>
+    </div>
+</body>
+</html>
